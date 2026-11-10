@@ -1,12 +1,14 @@
+
 {
-  "name": "nova-browse-backend",
+  "name": "supernova-vpn",
   "version": "1.0.0",
-  "description": "Nova Browse Backend",
-  "main": "app.js",
+  "description": "Supernova VPN backend",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^5.1.0",
+    "cors": "^2.8.5"
   }
 }
